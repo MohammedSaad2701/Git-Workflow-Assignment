@@ -1,0 +1,81 @@
+# GIT COMMANDS USED IN THE ASSIGNMENT
+
+**1. git init**
+
+Initializes a new Git repository in the current project folder.
+
+**2. git branch -M main**
+
+Renames the current branch to main.
+
+**3. git status**
+
+Displays the current status of the working directory and staging area.
+
+**4. git add .**
+
+Stages all changes in the current directory for committing.
+
+**5. git add index.html**
+
+Stages changes made specifically to index.html.
+
+**6. git commit -m "Initial project setup"**
+
+Creates a commit recording the initial project files.
+
+**7. git commit -m "Update homepage content"**
+
+Records the modifications made to the homepage.
+
+**8. git branch feature**
+
+Creates a new branch named feature.
+
+**9. git switch feature**
+
+Switches the working branch to feature.
+
+**10. git branch**
+
+Displays all local branches and identifies the current branch.
+
+**11. git switch main**
+
+Switches back to the main branch.
+
+**12. git merge feature**
+
+Merges the changes from the feature branch into main.
+
+**13. git log --oneline --graph --all**
+
+Displays the repository commit history in a graphical format.
+
+**14. git check-ignore test.log temp/**
+
+Checks whether the specified files and folders are ignored by Git.
+
+**15. git revert HEAD**
+
+Reverses the changes introduced by the latest commit while preserving commit history.
+
+**16. git remote add origin URL**
+
+Connects the local repository to the remote GitHub repository.
+
+**17. git push -u origin main**
+
+Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+**18. git push -u origin feature**
+
+Pushes the feature branch to GitHub and sets its upstream tracking branch.
+
+**19. git log --oneline**
+
+Displays a simplified list of repository commits.
+
+**20. cat index.html**
+
+Displays the contents of index.html in the terminal.
